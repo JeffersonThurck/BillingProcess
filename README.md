@@ -1,9 +1,14 @@
 # BillingProcess
 
-Repositório contendo a solução de processamento de cobranças
+Repositório contendo a solução de processamento de cobranças.
+
+ - Utilização da versão 3.1 .Net Core
+ - WebAPI
+ - Xunit
+ - Cloud Firestore
 
 
-Testes de performance realizados com Jmeter:
+Testes de performance realizados com Jmeter
 
 GET Cliente pelo CPF
 
