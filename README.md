@@ -7,6 +7,6 @@ Testes de performance realizados com Jmeter:
 
 GET Cliente pelo CPF
 
-![alt text](https://github.com/JeffersonThurck/BillingProcess/JMeterResults/blob/main/clientecpf.jpg?raw=true)
+![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/clientecpf.jpg?raw=true)
 
 
