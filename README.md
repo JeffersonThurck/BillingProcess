@@ -1,6 +1,6 @@
 # BillingProcess
 
-Repositorio contendo a solução de processamento de cobranças
+Repositório contendo a solução de processamento de cobranças
 
 
 Testes de performance realizados com Jmeter:
@@ -8,5 +8,34 @@ Testes de performance realizados com Jmeter:
 GET Cliente pelo CPF
 
 ![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/clientecpf.jpg?raw=true)
+
+
+GET All Clientes
+![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/allcliente.jpg?raw=true)
+
+
+Post Cliente
+
+![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/postcliente.jpg?raw=true)
+
+
+GET Cobranças pelo CPF
+
+![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/cobrancacpf.jpg?raw=true)
+
+
+GET ALL Cobranças
+
+![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/allcobranca.jpg?raw=true)
+
+POST Cobrança
+
+![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/postcobranca.jpg?raw=true)
+
+
+GET Calcula Consumo
+
+![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/consumo.jpg?raw=true)
+
 
 
