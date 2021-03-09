@@ -17,6 +17,7 @@ GET Cliente pelo CPF
 
 
 GET ALL Clientes
+
 ![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/allcliente.jpg?raw=true)
 
 
