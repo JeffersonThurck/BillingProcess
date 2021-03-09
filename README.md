@@ -9,7 +9,7 @@ Repositório contendo a solução de processamento de cobranças.
  - Documentação da API utilizando Swagger
 
 
-Para utilização das 2 APis ao mesmo tempo no Visual Studio:
+Configuração de inicialização das 2 APIs no Visual Studio:
 
 ![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/project_initialization.jpg?raw=true)
 
