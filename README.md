@@ -11,7 +11,7 @@ Repositório contendo a solução de processamento de cobranças.
 
 Para utilização das 2 APis ao mesmo tempo no Visual Studio:
 
-![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/clientecpf.jpg?raw=true)
+![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/project_initialization.jpg?raw=true)
 
 
 Testes de performance realizados com Jmeter
