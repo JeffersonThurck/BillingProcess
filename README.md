@@ -9,6 +9,11 @@ Repositório contendo a solução de processamento de cobranças.
  - Documentação da API utilizando Swagger
 
 
+Para utilização das 2 APis ao mesmo tempo no Visual Studio:
+
+![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/clientecpf.jpg?raw=true)
+
+
 Testes de performance realizados com Jmeter
 
 GET Cliente pelo CPF
