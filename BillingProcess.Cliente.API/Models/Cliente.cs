@@ -10,8 +10,6 @@ namespace BillingProcess.Client.API.Models
     public class Cliente
     {
         [FirestoreProperty]
-        public string Id { get; set; }
-        [FirestoreProperty]
         public string Nome { get; set; }
         [FirestoreProperty]
         public string CPF { get; set; }
