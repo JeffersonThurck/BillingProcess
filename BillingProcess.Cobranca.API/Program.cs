@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BillingProcess.Cobranca.API
+namespace BillingProcess.Cobrancas.API
 {
     public class Program
     {

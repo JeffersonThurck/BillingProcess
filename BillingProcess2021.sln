@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillingProcess.Cobranca.API", "BillingProcess.Cobranca.API\BillingProcess.Cobranca.API.csproj", "{BD344695-45BC-4443-88F7-2E60679C0BA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillingProcess.Cobrancas.API", "BillingProcess.Cobranca.API\BillingProcess.Cobrancas.API.csproj", "{BD344695-45BC-4443-88F7-2E60679C0BA6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillingProcess.Client.API", "BillingProcess.Cliente.API\BillingProcess.Client.API.csproj", "{5AD99DCE-84B3-4961-9531-062E810E9FB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingProcess.Test", "BillingProcess.Test\BillingProcess.Test.csproj", "{2CCFECB8-E236-4E8A-8C0A-BC18F4E8D634}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillingProcess.Test", "BillingProcess.Test\BillingProcess.Test.csproj", "{2CCFECB8-E236-4E8A-8C0A-BC18F4E8D634}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

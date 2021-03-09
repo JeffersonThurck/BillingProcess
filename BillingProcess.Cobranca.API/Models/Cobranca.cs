@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BillingProcess.Cobranca.API.Models
+namespace BillingProcess.Cobrancas.API.Models
 {
     [FirestoreData]
     public class Cobranca

@@ -1,4 +1,5 @@
-﻿using BillingProcess.Cobranca.API.Models;
+﻿using BillingProcess.Cobrancas.API.Models;
+using BillingProcess.Cobrancas.API.Services;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -6,20 +7,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BillingProcess.Cobranca.API.Controllers
+namespace BillingProcess.Cobrancas.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
     public class CobrancaController : ControllerBase
     {
         private readonly ICobrancaRepository _cobrancaRepository;
-        private readonly IValidator<Models.Cobranca> _validator;
-        //private readonly ICobrancaService _cobrancaService;
+        private readonly IValidator<Cobranca> _validator;
+        private readonly ICobrancaService _cobrancaService;
 
-        public CobrancaController(ICobrancaRepository cobrancaRepository, IValidator<Models.Cobranca> validator)
+        public CobrancaController(ICobrancaRepository cobrancaRepository, IValidator<Cobranca> validator, ICobrancaService cobrancaService)
         {
             _cobrancaRepository = cobrancaRepository;
             _validator = validator;
+            _cobrancaService = cobrancaService;
         }
 
         [HttpGet("{cpf}")]
@@ -44,7 +46,7 @@ namespace BillingProcess.Cobranca.API.Controllers
 
             if (result.Count == 0)
             {
-                return NotFound("Não foi possível listar as cobranças");
+                return BadRequest("Não foi possível listar as cobranças");
             }
             else
             {
@@ -53,7 +55,7 @@ namespace BillingProcess.Cobranca.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] Models.Cobranca cobranca)
+        public async Task<IActionResult> Post([FromBody] Cobranca cobranca)
         {
              var validaCobranca = _validator.Validate(cobranca);       
 
@@ -67,5 +69,14 @@ namespace BillingProcess.Cobranca.API.Controllers
                 return BadRequest("Erro ao cadastrar cobrança");
             }
         }
+
+        [HttpGet("/consumo")]
+        public async Task<IActionResult> GetConsumo()
+        {
+            var result = await _cobrancaService.CalculaConsumo();
+
+            return Ok(result);
+        }
+
     }
 }

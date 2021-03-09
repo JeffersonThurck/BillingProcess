@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BillingProcess.Cobranca.API.Configuration
+namespace BillingProcess.Cobrancas.API.Configuration
 {
     public static class SwaggerConfig
     {

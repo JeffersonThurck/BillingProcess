@@ -1,4 +1,4 @@
-using BillingProcess.Cobranca.API.Configuration;
+using BillingProcess.Cobrancas.API.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BillingProcess.Cobranca.API
+namespace BillingProcess.Cobrancas.API
 {
     public class Startup
     {

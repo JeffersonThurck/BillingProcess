@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BillingProcess.Cobranca.API.Models;
+using BillingProcess.Cobrancas.API.Models;
 
-namespace BillingProcess.Cobranca.API.Models
+namespace BillingProcess.Cobrancas.API.Models
 {
     public interface ICobrancaRepository
     {
