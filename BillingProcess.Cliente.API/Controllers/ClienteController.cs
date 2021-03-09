@@ -62,6 +62,8 @@ namespace BillingProcess.Client.API.Controllers
 
             if (verificaCPF.Result.CPF == null && validacao.IsValid)
             {
+                var cpfNumber = long.Parse(cliente.CPF);
+
                 var result = await _clienteRepository.Add(cliente);
                 return Ok(result);
             }

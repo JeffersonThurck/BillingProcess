@@ -36,7 +36,7 @@ namespace BillingProcess.Test
         [Fact]
         public async Task Get_ClienteByCPF_Sucesso()
         {
-            var response = await _client.GetAsync("https://localhost:44301/api/cliente/38774548121");
+            var response = await _client.GetAsync("https://localhost:44301/api/cliente/38407848451");
             response.EnsureSuccessStatusCode();
 
             Assert.Equal(HttpStatusCode.OK, response.StatusCode);
@@ -54,14 +54,14 @@ namespace BillingProcess.Test
         public async Task Post_Cliente_Sucesso()
         {
             Cliente cliente = new Cliente();
-            cliente.Nome = "Teste";
-            cliente.CPF = "37841297845";
+            cliente.Nome = "Cliente Teste";
+            cliente.CPF = "37841297023";
             cliente.Estado = "SP";
 
             var myContent = JsonConvert.SerializeObject(cliente);
             var stringContent = new StringContent(myContent, UnicodeEncoding.UTF8, "application/json");
 
-            var response = await _client.PostAsync("https://localhost:44326/api/cliente", stringContent);
+            var response = await _client.PostAsync("https://localhost:44301/api/cliente", stringContent);
             response.EnsureSuccessStatusCode();
 
             Assert.Equal(HttpStatusCode.OK, response.StatusCode);
@@ -78,7 +78,7 @@ namespace BillingProcess.Test
             var myContent = JsonConvert.SerializeObject(cliente);
             var stringContent = new StringContent(myContent, UnicodeEncoding.UTF8, "application/json");
 
-            var response = await _client.PostAsync("https://localhost:44326/api/cliente", stringContent);
+            var response = await _client.PostAsync("https://localhost:44301/api/cliente", stringContent);
 
             Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
         }

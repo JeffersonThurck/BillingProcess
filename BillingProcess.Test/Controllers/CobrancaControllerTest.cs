@@ -34,7 +34,7 @@ namespace BillingProcess.Test
         [Fact]
         public async Task Get_CobrancaByCPF_Sucesso()
         {
-            var response = await _client.GetAsync("https://localhost:44301/api/cobranca/38402684514");
+            var response = await _client.GetAsync("https://localhost:44301/api/cobranca/38407848451");
             response.EnsureSuccessStatusCode();
 
             Assert.Equal(HttpStatusCode.OK, response.StatusCode);

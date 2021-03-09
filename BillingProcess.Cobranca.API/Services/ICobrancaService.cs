@@ -9,9 +9,5 @@ namespace BillingProcess.Cobrancas.API.Services
     public interface ICobrancaService
     {
         Task<string> CalculaConsumo();
-
-        Task<double> CalculaConsumo(string cpf);
-
-        Task SalvaCobranca(Cliente cliente, double valor);
     }
 }

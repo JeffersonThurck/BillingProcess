@@ -35,13 +35,14 @@ namespace BillingProcess.Cobrancas.API.Services
             }
             catch (HttpRequestException exception)
             {
+                Console.WriteLine(exception.Message);
                 throw exception;
             }
 
             return "Cálculo de consumo gerado com sucesso!";
         }
 
-        public Task<double> CalculaConsumo(string cpf)
+        private Task<double> CalculaConsumo(string cpf)
         {
             double valorFinal = 0;
             try
@@ -58,7 +59,7 @@ namespace BillingProcess.Cobrancas.API.Services
             return Task.FromResult(valorFinal);
         }
 
-        public async Task SalvaCobranca(Cliente cliente, double valor)
+        private async Task SalvaCobranca(Cliente cliente, double valor)
         {
             try
             {
