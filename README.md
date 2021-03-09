@@ -6,6 +6,7 @@ Repositório contendo a solução de processamento de cobranças.
  - WebAPI
  - Xunit
  - Cloud Firestore
+ - Documentação da API utilizando Swagger
 
 
 Testes de performance realizados com Jmeter
