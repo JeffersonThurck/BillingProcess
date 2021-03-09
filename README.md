@@ -10,7 +10,7 @@ GET Cliente pelo CPF
 ![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/clientecpf.jpg?raw=true)
 
 
-GET All Clientes
+GET ALL Clientes
 ![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/allcliente.jpg?raw=true)
 
 
