@@ -1,9 +1,15 @@
 # BillingProcess
 
-Repositório contendo a solução de processamento de cobranças
+Repositório contendo a solução de processamento de cobranças.
+
+ - Utilização da versão 3.1 .Net Core
+ - WebAPI
+ - Xunit
+ - Cloud Firestore
+ - Documentação da API utilizando Swagger
 
 
-Testes de performance realizados com Jmeter:
+Testes de performance realizados com Jmeter
 
 GET Cliente pelo CPF
 
@@ -11,6 +17,7 @@ GET Cliente pelo CPF
 
 
 GET ALL Clientes
+
 ![alt text](https://github.com/JeffersonThurck/BillingProcess/blob/main/JmeterResults/allcliente.jpg?raw=true)
 
 
